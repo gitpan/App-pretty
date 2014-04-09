@@ -1,6 +1,6 @@
 package App::pretty;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 1;
 # ABSTRACT: Format data structure prettily
@@ -17,7 +17,7 @@ App::pretty - Format data structure prettily
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

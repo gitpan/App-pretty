@@ -25,7 +25,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-pretty
   homepage: https://metacpan.org/release/App-pretty
   repository: git://github.com/sharyanto/perl-App-pretty.git
-version: 0.01
+version: 0.02
 x_Dist_Zilla:
   perl:
     version: 5.018001
@@ -107,9 +107,9 @@ x_Dist_Zilla:
       name: '@Author::SHARYANTO/MetaConfig'
       version: 5.008
     -
-      class: Dist::Zilla::Plugin::OurPkgVersion
-      name: '@Author::SHARYANTO/OurPkgVersion'
-      version: 0.005001
+      class: Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion
+      name: '@Author::SHARYANTO/SHARYANTO::OurPkgVersion'
+      version: 0.02
     -
       class: Dist::Zilla::Plugin::PodWeaver
       config:
@@ -205,13 +205,17 @@ x_Dist_Zilla:
       name: '@Author::SHARYANTO/PodWeaver'
       version: 4.002
     -
+      class: Dist::Zilla::Plugin::PruneFiles
+      name: '@Author::SHARYANTO/PruneFiles'
+      version: 5.008
+    -
       class: Dist::Zilla::Plugin::ReadmeFromPod
       name: '@Author::SHARYANTO/ReadmeFromPod'
       version: 0.21
     -
       class: Dist::Zilla::Plugin::Rinci::Validate
       name: '@Author::SHARYANTO/Rinci::Validate'
-      version: 0.11
+      version: 0.12
     -
       class: Dist::Zilla::Plugin::Test::Compile
       config:
