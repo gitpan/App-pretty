@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!perl
 
 use 5.010001;
 use strict;
@@ -6,7 +6,7 @@ use warnings;
 
 use Getopt::Long;
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 my %Opts = (
     input  => 'json',
@@ -101,7 +101,7 @@ pretty - Format data structure prettily
 
 =head1 VERSION
 
-version 0.02
+This document describes version 0.03 of pretty (from Perl distribution App-pretty), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -193,17 +193,13 @@ the L<Data::Format::Pretty::Ruby> formatter module).
 
 99 on command-line options error.
 
-=head1 TODO
-
-Pass formatting option to formatter modules.
-
-Autodetect input format.
-
 =head1 FAQ
 
 =head1 SEE ALSO
 
 L<Data::Format::Pretty>
+
+L<pretty-res>
 
 =head1 HOMEPAGE
 
@@ -223,11 +219,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

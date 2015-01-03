@@ -1,6 +1,6 @@
 package App::pretty;
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 1;
 # ABSTRACT: Format data structure prettily
@@ -17,7 +17,7 @@ App::pretty - Format data structure prettily
 
 =head1 VERSION
 
-version 0.02
+This document describes version 0.03 of App::pretty (from Perl distribution App-pretty), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -41,11 +41,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
